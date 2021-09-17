@@ -31,22 +31,22 @@ namespace practice
       accountNumberSeed++;
 
       this.Owner = name;
-      MakeDeposit(initialBalance, DateTime.Now, "Open an account");
+      MakeDeposit(initialBalance, "Open an account");
     }
 
-    public void MakeDeposit(decimal amount, DateTime dataTime, string note)
+    public void MakeDeposit(decimal amount, string note)
     {
 
       if (amount <= 0) throw new ArgumentOutOfRangeException(nameof(amount), "Amount of deposit must be positive");
-      var deposit = new Transaction(amount, dataTime, note);
+      var deposit = new Transaction(amount, note);
       transactions.Add(deposit);
 
     }
-    public void MakeWithdrawal(decimal amount, DateTime date, string note)
+    public void MakeWithdrawal(decimal amount, string note)
     {
       if (amount <= 0) throw new ArgumentOutOfRangeException(nameof(amount), "Amount of deposit must be positive");
       if (Balance - amount <= 0) throw new InvalidOperationException("Not sufficient funds for this withdrawal");
-      var withdrawal = new Transaction(-amount, date, note);
+      var withdrawal = new Transaction(-amount, note);
       transactions.Add(withdrawal);
     }
 
