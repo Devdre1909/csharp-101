@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace practice
 
@@ -50,5 +51,16 @@ namespace practice
       transactions.Add(withdrawal);
     }
 
+    public string GetAccountHistory()
+    {
+      var report = new StringBuilder();
+      report.AppendLine("Type\t\tDate\t\t\tAmount\t\tNote");
+      foreach (Transaction item in transactions)
+      {
+        if (item.Amount < 0) report.AppendLine($"Withdra\t\t{item.Date.ToShortDateString()}\t\t${-item.Amount}\t\t{item.Note}");
+        else report.AppendLine($"Deposit\t\t{item.Date.ToShortDateString()}\t\t${item.Amount}\t\t{item.Note}");
+      }
+      return report.ToString();
+    }
   }
 }

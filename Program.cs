@@ -10,9 +10,11 @@ namespace practice
 
       var account = new BankAccount("Scott McCall", 1000);
       account.MakeDeposit(3500, "Some savings");
-      account.MakeWithdrawal(5600, "Shopping!!!");
+      account.MakeWithdrawal(500, "Shopping!!!");
       Console.WriteLine($"Account {account.Number} was created from {account.Owner} with {account.Balance}");
-
+      account.MakeDeposit(1000, "Savings");
+      account.MakeWithdrawal(3000, "XBox");
+      Console.WriteLine(account.GetAccountHistory());
     }
   }
 }
