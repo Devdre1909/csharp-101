@@ -1,0 +1,16 @@
+/home/xylia/Documents/csharp/c#_101/practice/bin/Debug/net5.0/practice
+/home/xylia/Documents/csharp/c#_101/practice/bin/Debug/net5.0/practice.deps.json
+/home/xylia/Documents/csharp/c#_101/practice/bin/Debug/net5.0/practice.runtimeconfig.json
+/home/xylia/Documents/csharp/c#_101/practice/bin/Debug/net5.0/practice.runtimeconfig.dev.json
+/home/xylia/Documents/csharp/c#_101/practice/bin/Debug/net5.0/practice.dll
+/home/xylia/Documents/csharp/c#_101/practice/bin/Debug/net5.0/ref/practice.dll
+/home/xylia/Documents/csharp/c#_101/practice/bin/Debug/net5.0/practice.pdb
+/home/xylia/Documents/csharp/c#_101/practice/obj/Debug/net5.0/practice.csproj.AssemblyReference.cache
+/home/xylia/Documents/csharp/c#_101/practice/obj/Debug/net5.0/practice.GeneratedMSBuildEditorConfig.editorconfig
+/home/xylia/Documents/csharp/c#_101/practice/obj/Debug/net5.0/practice.AssemblyInfoInputs.cache
+/home/xylia/Documents/csharp/c#_101/practice/obj/Debug/net5.0/practice.AssemblyInfo.cs
+/home/xylia/Documents/csharp/c#_101/practice/obj/Debug/net5.0/practice.csproj.CoreCompileInputs.cache
+/home/xylia/Documents/csharp/c#_101/practice/obj/Debug/net5.0/practice.dll
+/home/xylia/Documents/csharp/c#_101/practice/obj/Debug/net5.0/ref/practice.dll
+/home/xylia/Documents/csharp/c#_101/practice/obj/Debug/net5.0/practice.pdb
+/home/xylia/Documents/csharp/c#_101/practice/obj/Debug/net5.0/practice.genruntimeconfig.cache

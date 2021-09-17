@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/xylia/.dotnet/store/|arch|/|tfm|",
+      "/home/xylia/.nuget/packages"
+    ]
+  }
+}
